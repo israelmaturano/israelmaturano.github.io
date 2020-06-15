@@ -9,3 +9,7 @@
 .title {
   grid-are: title;
 }
+
+.header {
+  font-family: 'Righteous', cursive;
+}
