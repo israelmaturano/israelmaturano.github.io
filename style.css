@@ -1,6 +1,6 @@
 .grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
   "title image";
@@ -13,7 +13,7 @@
 .header {
   grid-area: header;
   font-family: 'Righteous', cursive;
-  font-size: 100px;
+  font-size: 300%;
   align-content: center;
 }
 
