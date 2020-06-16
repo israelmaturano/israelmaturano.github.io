@@ -1,15 +1,22 @@
 .grid{
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
-  "title title"
+  "title image";
 }
 
 .title {
-  grid-are: title;
+  grid-area: title;
 }
 
 .header {
+  grid-area: header;
   font-family: 'Righteous', cursive;
+  font-size: 100px;
+  align-content: center;
+}
+
+.image {
+  grid-area: image;
 }
