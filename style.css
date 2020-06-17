@@ -49,6 +49,7 @@
   grid-area: header;
   font-family: 'Righteous', cursive;
   font-size: 9vw;
+  letter-spacing: 2px;
 }
 
 .image {
@@ -59,6 +60,7 @@
 .subtext {
   font-family: 'Righteous', cursive;
   font-size: 2vw;
+  letter-spacing: 3px;
 }
 
 .about_me {
@@ -138,6 +140,15 @@
   .subtext {
     font-size: 5vw;
     text-align: center;
+  }
+  .image{
+    margin: auto;
+    margin-bottom: 0px;
+  }
+  .title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
   }
 }
 
