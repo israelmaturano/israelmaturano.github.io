@@ -104,11 +104,11 @@
     left: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #FFEBEB;
+    background-color: #FFF2F2;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
     transform: translate(-100%);
     transition: transform 0.2s ease-in;
   }
