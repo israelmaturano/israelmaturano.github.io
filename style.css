@@ -83,7 +83,7 @@
 
 .burger div{
   width: 20px;
-  height: 3px;
+  height: 2px;
   background-color: #1A0C00;
   margin: 3px;
   transition: all 0.2s ease-in;
@@ -168,11 +168,11 @@
 }
 
 .toggle .line1{
-  transform: rotate(-45deg) translate(-5px,4px);
+  transform: rotate(-45deg) translate(-4px,4.5px);
 }
 .toggle .line2{
   opacity: 0;
 }
 .toggle .line3{
-  transform: rotate(45deg) translate(-4px,-4px);
+  transform: rotate(45deg) translate(-2.5px,-4px);
 }
