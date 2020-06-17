@@ -1,9 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #fff0f5;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+}
+
 .grid{
   display: grid;
-  grid-template-columns: 1fr 500px 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
-  ". title image .";
+  ". title image ."
+  "about_me about_me about_me about_me";
 }
 
 .title {
@@ -14,7 +35,6 @@
   grid-area: header;
   font-family: 'Righteous', cursive;
   font-size: 100px;
-  margin: 0px;
 }
 
 .image {
@@ -24,5 +44,9 @@
 .subtext {
   font-family: 'Righteous', cursive;
   font-size: 30px;
-  margin: 0px;
+}
+
+.about_me {
+  grid-area: about_me;
+  background-color: #fff0f5;
 }
