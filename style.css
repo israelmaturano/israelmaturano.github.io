@@ -40,12 +40,13 @@
 .title {
   grid-area: title;
   margin: 30px;
+  align-self: center;
 }
 
 .header {
   grid-area: header;
   font-family: 'Righteous', cursive;
-  font-size: 8vw;
+  font-size: 9vw;
 }
 
 .image {
@@ -104,6 +105,14 @@
   }
   .burger{
     display: block;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "title image"
+    "about_me about_me";
   }
 }
 
