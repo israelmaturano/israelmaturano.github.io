@@ -45,7 +45,7 @@
 .header {
   grid-area: header;
   font-family: 'Righteous', cursive;
-  font-size: 100px;
+  font-size: 8vw;
 }
 
 .image {
@@ -55,7 +55,7 @@
 
 .subtext {
   font-family: 'Righteous', cursive;
-  font-size: 30px;
+  font-size: 2vw;
 }
 
 .about_me {
