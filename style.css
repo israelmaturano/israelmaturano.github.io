@@ -36,7 +36,7 @@
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
   ". title image ."
-  "about_me about_me about_me about_me";
+  ". about_me about_me .";
 }
 
 .title {
@@ -63,7 +63,7 @@
 
 .about_me {
   grid-area: about_me;
-  background-color: #FFEBEB;
+  background-color: #F9EEEE;
 }
 
 .logo{
@@ -104,7 +104,7 @@
     left: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: white;
+    background-color: #FFEBEB;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,12 +123,21 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-    "title image"
+    "image image"
+    "title title"
     "about_me about_me";
   }
   .logo{
     position: absolute;
-    left:70px;
+    left: auto;
+  }
+  .header {
+    font-size: 11vw;
+    text-align: center;
+  }
+  .subtext {
+    font-size: 5vw;
+    text-align: center;
   }
 }
 
