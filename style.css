@@ -16,7 +16,9 @@
 .nav_links {
   display: flex;
   justify-content: space-around;
-  width: 45%;
+  width: 70%;
+  position: absolute;
+  right: 200px;
 }
 
 .nav_links li{
@@ -64,7 +66,15 @@
   background-color: #FFEBEB;
 }
 
+.logo{
+  position: absolute;
+  left:20px;
+}
+
+
 .burger {
+  position: absolute;
+  left:20px;
   display: none;
   cursor: pointer;
 }
@@ -77,9 +87,11 @@
   transition: all 0.2s ease-in;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1224px){
   .nav_links{
     width: 60%;
+    position: absolute;
+    right: 100px;
   }
 }
 
@@ -113,6 +125,10 @@
     grid-template-areas:
     "title image"
     "about_me about_me";
+  }
+  .logo{
+    position: absolute;
+    left:90px;
   }
 }
 
