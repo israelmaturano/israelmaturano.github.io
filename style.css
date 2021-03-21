@@ -57,8 +57,9 @@
 .header {
   grid-area: header;
   font-family: 'CustomFont';
-  font-size: 9vw;
-  font-weight: lighter;
+  font-size: 12vw;
+  font-weight: normal;
+  line-height:  9vw;
   letter-spacing: 2px;
 }
 
@@ -69,8 +70,10 @@
 
 .subtext {
   font-family: 'CustomFont';
-  font-size: 4vw;
-  letter-spacing: 3px;
+  font-size: 2.5vw;
+  line-height: 2vw;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .socials{
@@ -133,6 +136,7 @@
     left: 0px;
     height: 92vh;
     top: 8vh;
+    font-size: 6vh;
     background-color: #FFF2F2;
     display: flex;
     flex-direction: column;
