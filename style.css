@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
 @font-face {
   font-family: 'CustomFont';
   src: url(fonts/myFont.ttf);
@@ -43,19 +55,31 @@
   grid-auto-rows: min-content;
   grid-template-areas:
   ". title image ."
-  ". socials socials ."
   ". about_me about_me .";
+}
+
+div{
+  color: inherit;
+  border: none;
+}
+
+a, a:focus{
+  color: inherit;
+  border: inherit;
+  outline:none;
+}
+a:link{
+  text-decoration: none;
 }
 
 .title {
   grid-area: title;
   margin: 30px;
-  align-self: center;
+  align-self: end;
   box-sizing: content-box;
 }
 
 .header {
-  grid-area: header;
   font-family: 'CustomFont';
   font-size: 12vw;
   font-weight: normal;
@@ -76,9 +100,13 @@
   letter-spacing: 2px;
 }
 
-.socials{
-  grid-area: socials;
-  margin: 20px;
+footer {
+  min-height: 10vh;
+  background-color: #FFEBEB;
+  margin: 0px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .icons {
@@ -95,7 +123,11 @@
 
 .about_me{
   grid-area: about_me;
+  font-family: 'CustomFont';
   background-color: #F9EEEE;
+  font-size: 2.5vw;
+  border-radius: 50px;
+  padding: 50px;
 }
 
 .logo{
