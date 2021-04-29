@@ -125,11 +125,10 @@ footer {
 }
 
 .about_me{
-  font-weight: bold;
   grid-area: about_me;
   font-family: 'CustomFont';
   background-color: #F9EEEE;
-  font-size: 7vw;
+  font-size: 6.5vw;
   text-align: center;
   border-radius: 2vw;
   padding: 4vw;
