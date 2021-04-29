@@ -75,6 +75,7 @@ a:link{
 .title {
   grid-area: title;
   margin: 30px;
+  width: 29vw;
   align-self: end;
   box-sizing: content-box;
 }
@@ -119,6 +120,8 @@ footer {
 
 .icons li{
   list-style: none;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 .about_me{
@@ -126,9 +129,9 @@ footer {
   font-family: 'CustomFont';
   background-color: #F9EEEE;
   font-size: 2.5vw;
-  border-radius: 50px;
-  padding: 50px;
-  margin: 3vw;
+  border-radius: 2vw;
+  padding: 2vw;
+  margin: 2vw;
 }
 
 .logo{
@@ -199,9 +202,12 @@ footer {
     position: absolute;
     left: auto;
   }
-  .header {
+  .title {
     font-size: 11vw;
+    padding: 2vw;
     text-align: center;
+    width: auto;
+
   }
   .subtext {
     font-size: 5vw;
