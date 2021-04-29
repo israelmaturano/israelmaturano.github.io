@@ -125,7 +125,7 @@ footer {
 }
 
 .about_me{
-  font-weight: bolder;
+  font-weight: bold;
   grid-area: about_me;
   font-family: 'CustomFont';
   background-color: #F9EEEE;
@@ -139,7 +139,7 @@ footer {
 .paragraph{
   text-align: left;
   font-weight: normal;
-  font-size: 4vw;
+  font-size: 5vw;
   padding: 3vw;
   padding-top: 2vw;
   paddin
